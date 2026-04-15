@@ -1,0 +1,22 @@
+artifact_path: file:D:/Temp/Student_Performance_Prediction/notebooks/mlruns/1/models/m-1afc38ff622444bf8cf7d52741483ff7/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.0
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.10.1
+model_id: m-1afc38ff622444bf8cf7d52741483ff7
+model_size_bytes: 116671
+model_uuid: m-1afc38ff622444bf8cf7d52741483ff7
+prompts: null
+run_id: a8d8e67ef3b14718a91959da9dc353e1
+utc_time_created: '2026-04-07 17:01:41.906698'

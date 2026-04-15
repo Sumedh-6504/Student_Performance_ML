@@ -1,0 +1,14 @@
+joblib
+mlflow-skinny
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+mlflow
+streamlit
+shap
+fastapi
+uvicorn
+jupyter
